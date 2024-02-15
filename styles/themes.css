@@ -4,3 +4,35 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+@media (prefers-color-scheme: light) {
+    :root.theme-light {
+        --background-color-blocks: var(--color-white, #fff);
+        --accent-color: var(--color-black-1, #000);
+        --background-color-stripe-start: var(--color-gray-1, #d3d3d3);
+        --background-color-stripe-end: var(--color-transparent, rgba(0, 0, 0, 0));
+        --background-color-start: var(--color-gray-2, #e7e7e7);
+        --background-color-end: var(--color-black-2, #1a1a1a);
+        --like-button-color: var(--color-white, #fff);
+        --label-card-color: var(--color-white, #fff);
+
+        --font-title: "Press-Start-2P";
+        --font-text: "Inter";
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root.theme-dark {
+        --background-color-blocks: var(--color-black-1, #000);
+        --accent-color: var(--color-green-1, #00cc14);
+        --background-color-stripe-start: var(--color-black-1, #000);
+        --background-color-stripe-end: var(--color-transparent, rgba(0, 0, 0, 0));
+        --background-color-start: var(--color-green-2, #007f0c);
+        --background-color-end: var(--color-green-3, #004306);
+        --like-button-color: var(--color-green-1, #00cc14);
+        --label-card-color: var(--color-black-1, #000);
+
+        --font-title: "Press-Start-2P";
+        --font-text: "Inter";
+    }
+}
