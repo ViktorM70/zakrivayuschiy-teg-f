@@ -1,7 +1,6 @@
 Проектная работа № 4 "Закрывающий тег F".
 
-https://github.com/ViktorM70/slozhno-sosredotochitsya.git
-
+https://github.com/ViktorM70/zakrivayuschiy-teg-f.git
 
 
 Применены следующие технологиидля создания проекта:
