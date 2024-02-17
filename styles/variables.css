@@ -9,28 +9,8 @@
     --like-button-color: #fff;
     --label-card-color: #fff;
     --heart-color: #FF0000;
-    --font-title: "PressStart2P";
-    --font-text: "Inter";
-    --title-font-weight: "wght" 700;
-    --text-font-weight: "wght" 400;
+    --accent-font: "PressStart2P", "Impact", fantasy;
+    --main-font: "Inter", "Arial", sans-serif;
+    --title-font-weight: 700;
+    --text-font-weight: 400;
 }
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --background-color-blocks: #fff;
-        --accent-color: #000;
-        --background-color-stripe-start: #d3d3d3;
-        --background-color-stripe-end: rgba(0, 0, 0, 0);
-        --background-color-start: #e7e7e7;
-        --background-color-end: #1a1a1a;
-        --like-button-color: #fff;
-        --label-card-color: #fff;
-        --title-font-weight: "wght" 700;
-        --text-font-weight: "wght" 400;
-    }
-}
-
-
-
-
-

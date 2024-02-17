@@ -14,8 +14,8 @@
     --background-color-end: #1a1a1a;
     --like-button-color: #fff;
     --label-card-color: #fff;
-    --title-font-weight: "wght" 700;
-    --text-font-weight: "wght" 400;
+    --title-font-weight: 700;
+    --text-font-weight: 400;
 }
 
 :root.theme-dark {
@@ -27,8 +27,8 @@
     --background-color-end: #004306;
     --like-button-color: #00cc14;
     --label-card-color: #000;
-    --title-font-weight: "wght" 785;
-    --text-font-weight: "wght" 465;
+    --title-font-weight: 785;
+    --text-font-weight: 465;
 }
 
 @media (prefers-color-scheme: dark) {
